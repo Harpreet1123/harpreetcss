@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/*button styles*/
+
+/* EXPLAIN THIS STYLE RULE (1 mark) it is Responsive Pricing Tables rule.it display information and helps users to differentiate the options available to them. pricing tables can convert passing visitors into valuable customers. */
+
+.pricingTable button {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+}
+
+
+
+.pricingTable section:first-of-type button {
+  border: 1px solid #007bff;
+}
+
+
+/* FIX THIS STYLE RULE  (2 marks) */
+
+
+.pricingTable section:nth-of-type(2) button,
+.pricingTable section:nth-of-type(3) button {
+  background-color: #007bff;
+  color: #fff;
+  border: transparent;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+.flex-container > div {
+
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 10px;
+}
+.bannerimage{background-image: url("");
+  background-repeat: no-repeat;}
